@@ -1,44 +1,32 @@
 <!DOCTYPE html>
-<html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>HTLD BACKAN</title>
-<style>
-* {
-  margin: 0;
-  padding: 0;
-}
-#mindmap {
-  display: block;
-  width: 100vw;
-  height: 100vh;
-}
-</style>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.2/dist/style.css">
+<meta charset="utf-8"/>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<link rel="stylesheet" href="base.min.css"/>
+<link rel="stylesheet" href="fancy.min.css"/>
+<link rel="stylesheet" href="main.css"/>
+<script src="compatibility.min.js"></script>
+<script src="theViewer.min.js"></script>
+<script>
+try{
+theViewer.defaultViewer = new theViewer.Viewer({});
+}catch(e){}
+</script>
+<title></title>
 </head>
 <body>
-<svg id="mindmap"></svg>
-<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.2/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.2/dist/index.js"></script><script>(r => {
-                setTimeout(r);
-              })(() => {
-  const {
-    markmap,
-    mm
-  } = window;
-  const {
-    el
-  } = markmap.Toolbar.create(mm);
-  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
-  document.body.append(el);
-})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
-              const markmap = getMarkmap();
-              window.mm = markmap.Markmap.create(
-                "svg#mindmap",
-                (getOptions || markmap.deriveOptions)(jsonOptions),
-                root2
-              );
-            })(() => window.markmap,null,{"content":"HTLD BAC KAN","children":[{"content":"🖥️ IIS","children":[{"content":"🌐 <a href=\"https://htldbackan.dtsoft.vn/\">https://htldbackan.dtsoft.vn</a>","children":[],"payload":{"lines":"3,4"}},{"content":"🌐 <a href=\"https://htldbackanbm.dtsoft.vn/\">https://htldbackanbm.dtsoft.vn</a>","children":[],"payload":{"lines":"4,5"}},{"content":"🌐 <a href=\"https://htldbackanapi.dtsoft.vn/\">https://htldbackanapi.dtsoft.vn</a>","children":[],"payload":{"lines":"5,7"}}],"payload":{"lines":"1,2"}},{"content":"🖥️ SQL","children":[{"content":"htld_backan.bak","children":[],"payload":{"lines":"9,10"}},{"content":"htld_backan_bm.bak","children":[],"payload":{"lines":"10,11"}},{"content":"htld_backan_api.bak","children":[],"payload":{"lines":"11,12"}}],"payload":{"lines":"7,8"}}]},{"color":["#2980b9"]})</script>
+<div id="sidebar">
+<div id="outline">
+</div>
+</div>
+<div id="page-container">
+<div id="pf1" class="pf w0 h0" data-page-no="1"><div class="pc pc1 w0 h0"><img class="bi x0 y0 w1 h1" alt="" src="bg1.png"/><div class="c x0 y1 w2 h2"><div class="t m0 x1 h3 y2 ff1 fs0 fc0 sc0 ls0 ws0">Public</div><div class="t m0 x2 h3 y3 ff2 fs0 fc1 sc0 ls0 ws0">IIS</div><div class="t m0 x2 h3 y4 ff2 fs0 fc1 sc0 ls0 ws0">SQL</div><div class="t m0 x3 h3 y5 ff2 fs0 fc2 sc0 ls0 ws0"> Software Firewall</div><div class="t m0 x3 h3 y6 ff2 fs0 fc2 sc0 ls0 ws0">WAF (Web Application Firewall)</div><div class="t m0 x4 h3 y7 ff2 fs0 fc3 sc0 ls0 ws0">1. https://htldbackan.dtsoft.vn</div><div class="t m0 x4 h3 y8 ff2 fs0 fc3 sc0 ls0 ws0">2. https://htldbackanbm.dtsoft.vn</div><div class="t m0 x4 h3 y9 ff2 fs0 fc3 sc0 ls0 ws0">3. https://htldbackanapi.dtsoft.vn</div><div class="t m0 x5 h3 ya ff2 fs0 fc4 sc0 ls0 ws0">HTLDBACKAN.bak</div><div class="t m0 x5 h3 yb ff2 fs0 fc4 sc0 ls0 ws0">HTLDBACKANAPI.bak</div><div class="t m0 x5 h3 yc ff2 fs0 fc4 sc0 ls0 ws0">HTLDBACKANBM.bak</div><div class="t m0 x6 h4 yd ff3 fs1 fc0 sc0 ls0 ws0">HTLD-BACKAN</div><div class="t m0 x7 h5 ye ff1 fs2 fc0 sc0 ls0 ws0">SERVER</div><div class="t m0 x8 h5 yf ff1 fs2 fc1 sc0 ls0 ws0">SF/WAF</div></div><a class="l" href="https://htldbackan.dtsoft.vn/"><div class="d m1" style="border-style:none;position:absolute;left:586.604980px;bottom:283.038377px;width:154.500000px;height:13.500000px;background-color:rgba(255,255,255,0.000001);"></div></a><a class="l" href="https://htldbackanbm.dtsoft.vn/"><div class="d m1" style="border-style:none;position:absolute;left:586.604980px;bottom:252.269607px;width:174.750000px;height:13.500000px;background-color:rgba(255,255,255,0.000001);"></div></a><a class="l" href="https://htldbackanapi.dtsoft.vn/"><div class="d m1" style="border-style:none;position:absolute;left:586.604980px;bottom:221.500867px;width:172.500000px;height:13.500000px;background-color:rgba(255,255,255,0.000001);"></div></a></div><div class="pi" data-data='{"ctm":[1.000000,0.000000,0.000000,1.000000,0.000000,-8.370013]}'></div></div>
+</div>
+<div class="loading-indicator">
+
+</div>
 </body>
 </html>
